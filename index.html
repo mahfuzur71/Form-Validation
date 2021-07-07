@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Register With Us</h2>
+            <div class="form-control">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" class="username" placeholder="Enter username"><br>
+                <small class="display-hidden">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email" class="email">Email</label><br>
+                <input type="text" id="email" placeholder="Enter email"><br>
+                <small class="display-hidden">Error message</small>
+            </div>
+            <div class="form-control">
+                <a href="#" class="generate-password">Generate Password</a>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" placeholder="Enter password"><br>
+                <small class="display-hidden">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="retypepassword" class="rtpass">Retype password</label><br>
+                <input type="text" id="retypepassword" placeholder="Type password again"><br>
+                <small class="display-hidden">Error message</small>
+            </div>
+            <button class="submit">Submit</button>
+        </form>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

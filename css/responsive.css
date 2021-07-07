@@ -1,0 +1,131 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form-control label {
+    margin-right: 14.5em;
+  }
+  .rtpass {
+    margin-right: 11.5em !important;
+  }
+  .email {
+    margin-right: 16.8em !important;
+  }
+  .form-control small {
+    margin-right: 13em;
+  }
+  .form {
+    width: 90%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form-control label {
+    margin-right: 17.5em;
+  }
+  .rtpass {
+    margin-right: 14.5em !important;
+  }
+  .email {
+    margin-right: 19.8em !important;
+  }
+  .form-control small {
+    margin-right: 16em;
+  }
+  .form {
+    width: 77%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form-control label {
+    margin-right: 17.5em;
+  }
+  .rtpass {
+    margin-right: 15.5em !important;
+  }
+  .email {
+    margin-right: 19.8em !important;
+  }
+  .form-control small {
+    margin-right: 14em;
+  }
+  .form {
+    width: 60%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form-control label {
+    margin-right: 15.5em;
+  }
+  .rtpass {
+    margin-right: 12.3em !important;
+  }
+  .email {
+    margin-right: 17.3em !important;
+  }
+  .form-control small {
+    margin-right: 13em;
+  }
+  .form {
+    width: 45%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .form-control label {
+    margin-right: 17.5em;
+  }
+  .rtpass {
+    margin-right: 14.3em !important;
+  }
+  .form-control small {
+    margin-right: 17em;
+  }
+  .form {
+    width: 45%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .form-control label {
+    margin-right: 17.5em;
+  }
+  .rtpass {
+    margin-right: 14.3em !important;
+  }
+  .form-control small {
+    margin-right: 17em;
+  }
+  .form {
+    width: 45%;
+  }
+}
